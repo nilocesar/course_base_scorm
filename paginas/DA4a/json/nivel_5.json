@@ -1,0 +1,16 @@
+{
+    "questoes": [
+        {
+            "sub_nivel": "1",
+            "titulo": "Por nada, tchau!",
+            "opc": [["Obrigado pela disponibilidade e cooperação.", "*", "*", 0]]
+            
+            }, 
+        {
+            "sub_nivel": "2",
+            "titulo": "Estou atrasado para uma reunião. Vamos ter de deixar para outra hora. Desculpe!",
+            "opc": [["Tudo bem! Obrigado pela disponibilidade e cooperação. Nos falamos depois, até logo.", "*", "*", 0]]
+            
+            }
+        ]
+}

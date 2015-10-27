@@ -1,0 +1,20 @@
+{
+    "questoes": [
+        {
+            "sub_nivel": "1",
+            "titulo": "Isso mesmo! O seu produto é de ótima qualidade, mas o preço está muito alto.",
+            "opc": [["Tudo bem! Agradeço, novamente, senhor João. Vamos trabalhar, internamente, para melhorar essa condição e atendê-lo melhor.", 7, 1, 30],
+                    ["Tudo bem! Eu agradeço, novamente, senhor João. Fique tranquilo que iremos resolver esse problema.", 7, 2, 5],
+                    ["Está certo, senhor João! Eu agradeço pelas informações.", 7, 2, 5]]
+            }, 
+        {
+ 
+            "sub_nivel": "2",
+            "titulo": "Isso mesmo! O seu produto é de ótima qualidade, mas o preço está muito alto.",
+            "opc": [["Tudo bem! Agradeço, novamente, senhor João. Vamos trabalhar, internamente, para melhorar essa condição e atendê-lo melhor.", 7, 2, 5],
+                    ["Tudo bem! Eu agradeço, novamente, senhor João. Fique tranquilo que iremos resolver esse problema.", 7, 2, 5],
+                    ["Está certo, senhor João! Eu agradeço pelas informações.", 7, 2, 5]]
+            
+            }
+        ]
+}

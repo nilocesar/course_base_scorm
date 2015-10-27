@@ -1,0 +1,29 @@
+{
+    "questoes": [
+        {
+            "sub_nivel": "1",
+            "titulo": "Bem, peço perdão pela sinceridade, mas o motivo é simples: vocês não me entregaram o produto na data correta. Não fizeram a sua parte.",
+            "opc": [["Entendo e peço desculpas, senhor Frederico. Tenho mais uma pergunta: na resposta de sua pesquisa, você disse ter tido problemas com o híbrido 240. O senhor poderia me explicar melhor o que aconteceu?", 4, 1, 75],
+                    ["Então o problema foi a entrega, certo?", 4, 2, 20],
+                    ["Perfeito, senhor Frederico! Só mais uma pergunta: esse problema com a entrega aconteceu com o híbrido 240?", 4, 3, 10]]
+            
+            }, 
+        {
+            "sub_nivel": "2",
+            "titulo": "Tudo bem! E o que você quer saber?",
+            "opc": [["O senhor comenta, nas respostas, da pesquisa que não realizamos a entrega na data acordada. Isso já está sendo tratado, mas preciso saber se você teve mais alguma dificuldade com nosso produto.", 4, 1, 75],
+                    ["Gostaria que o senhor me explicasse melhor o motivo da sua nota.", 4, 2, 20],
+                    ["O que deu errado?", 4, 3, 10]]
+            
+            }, 
+        
+        {
+            "sub_nivel": "3",
+            "titulo": "Claro! Vocês não me entregaram o que comprei na data correta. Esse é o motivo da nota!",
+            "opc": [["Entendo, senhor Frederico! Tenho só mais uma pergunta: na resposta de sua pesquisa, você diz ter tido problemas com o 240. Você pode me explicar melhor quais foram os problemas?", 4, 2, 20],
+                    ["Entendo e peço desculpas, senhor Frederico! Agradeço sua colaboração e participação. Em breve, entrarei em contato novamente para explicar como vamos resolver este problema.", 4, 3, 10],
+                    ["Entendo! Nós não entregamos na data combinada?", 4, 3, 10]]
+            
+            }
+        ]
+}

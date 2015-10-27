@@ -1,0 +1,29 @@
+{
+    "questoes": [
+        {
+            "sub_nivel": "1",
+            "titulo": "Tudo ótimo! Como posso ajudá-lo?",
+            "opc": [["Gostaria de agradecê-lo por participar de uma pesquisa de recomendação da Sementes Agroceres recentemente. Com as respostas, o senhor ajuda para que possamos atendê-lo melhor.", 3, 1, 35],
+                    ["O senhor participou, recentemente, de uma pesquisa de recomendação da Sementes Agroceres. Quero agradecê-lo por sua colaboração!", 3, 2, 20],
+                    ["Quero agradecer por participar da pesquisa.", 3, 3, 15]]
+            }, 
+        {
+ 
+            "sub_nivel": "2",
+            "titulo": "Como posso ajudá-lo?",
+            "opc": [["Gostaria de agradecê-lo por participar de uma pesquisa de recomendação da Sementes Agroceres recentemente. Com as respostas, o senhor ajuda para que possamos atendê-lo melhor.", 3, 1, 35],
+                    ["O senhor participou, recentemente, de uma pesquisa de recomendação da Sementes Agroceres. Quero agradecê-lo por sua colaboração!", 3, 2, 20],
+                    ["Quero agradecer por participar da pesquisa.", 3, 3, 15]]
+            
+            }, 
+        
+        {
+            "sub_nivel": "3",
+            "titulo": "Tudo certo! Com quem estou falando?",
+            "opc": [["Perdão, senhor João! Eu sou o RTV  da Sementes Agroceres. Estou entrando em contato para, primeiramente, agradecê-lo por participar recentemente de uma pesquisa de recomendação da Sementes Agroceres.", 3, 1, 35],
+                    ["Perdão, senhor João! Eu sou o RTV da Sementes Agroceres, o senhor participou, recentemente, de uma pesquisa de recomendação.", 3, 2, 20],
+                    ["Eu sou o RTV da Sementes Agroceres, por favor, podemos falar?", 3, 3, 15]]
+            
+            }
+        ]
+}

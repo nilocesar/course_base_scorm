@@ -1,0 +1,29 @@
+{
+    "questoes": [
+        {
+            "sub_nivel": "1",
+            "titulo": "Por nada! É sempre bom ajudar. Mas preciso dizer que o preço está muito alto, rapaz.",
+            "opc": [["Entendo, senhor João! Você pode me dizer por que considera os nossos preços altos?", 4, 1, 40],
+                    ["Entendo, senhor João! Mas veja a segurança que o nosso produto oferece. O senhor não acha que vale o investimento?", 4, 2, 20],
+                    ["Entendo, senhor João! Mas acredito que nossos preços estejam dentro dos valores do mercado.", 4, 3, 10]]
+            }, 
+        {
+ 
+            "sub_nivel": "2",
+            "titulo": "Tudo certo! Ainda bem que você ligou. Estava mesmo querendo falar sobre o preço dos seus produtos. Eles estão muito caros, a margem está muito ruim.",
+            "opc": [["Entendo, senhor João! Você pode me dizer por que considera os nossos preços altos?", 4, 1, 40],
+                    ["Entendo, senhor João! Mas veja a segurança que o nosso produto oferece. O senhor não acha que vale o investimento?", 4, 2, 20],
+                    ["Entendo, senhor João! Mas acredito que nossos preços estejam dentro dos valores do mercado.", 4, 3, 10]]
+            
+            }, 
+        
+        {
+            "sub_nivel": "3",
+            "titulo": "Certo! Para falar a verdade, ainda bem que você ligou. Estava mesmo querendo falar com você sobre o preço dos seus produtos. Eles estão muito caros, a margem está muito ruim.",
+            "opc": [["Entendo, senhor João! Você pode me dizer por que considera os nossos preços altos?", 4, 2, 20],
+                    ["Entendo, senhor João! Mas veja a segurança que o nosso produto oferece. O senhor não acha que vale o investimento?", 4, 3, 10],
+                    ["Entendo, senhor João! Mas acredito que nossos preços estejam dentro dos valores do mercado.", 4, 3, 10]]
+            
+            }
+        ]
+}

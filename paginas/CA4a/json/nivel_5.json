@@ -1,0 +1,20 @@
+{
+    "questoes": [
+        {
+            "sub_nivel": "1",
+            "titulo": "Para falar a verdade, parece que todos os outros agricultores tiveram o mesmo problema. Só não consigo garantir qual era o híbrido que eles plantaram.",
+            "opc": [["Perfeito, Roberto! Vou levar o assunto até as equipes internas da Sementes Agroceres para que seja avaliado. Assim, poderemos melhorar mais com a sua contribuição.", 6, 1, 60],
+                    ["Entendo, Roberto! O assunto será analisado pela equipe da Sementes Agroceres e esperamos melhorar com sua contribuição.", 6, 1, 60],
+                    ["Entendo! Obrigado pela informação.", 6, 2, 5]]
+            
+            }, 
+        {
+            "sub_nivel": "2",
+            "titulo": "Parece que todo mundo teve o mesmo problema. Todos compraram com vocês?",
+            "opc": [["Para ser sincero, eu não sei! Mas vamos descobrir. Muito obrigado, senhor Roberto. Vou levar o assunto até as equipes internas da Sementes Agroceres para que seja avaliado. Assim, poderemos melhorar mais com a sua contribuição.", 6, 2, 5],
+                    ["Não sei lhe dizer agora, Roberto! Mas o assunto será analisado pela equipe da Sementes Agroceres e esperamos melhorar com sua contribuição.", 6, 2, 5],
+                    ["Não! Obrigado pela informação.", 6, 2, 5]]
+            
+            }
+        ]
+}

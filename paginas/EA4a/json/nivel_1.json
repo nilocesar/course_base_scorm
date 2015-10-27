@@ -1,0 +1,11 @@
+{
+    "questoes": [
+        {
+            "sub_nivel": "1",
+            "titulo": "João, bom dia!",
+            "opc": [["Bom dia, senhor João! Eu sou o RTV da Sementes Agroceres, tudo bem?", 2, 1, 30],
+                    ["Senhor João! Eu sou RTV da Sementes Agroceres.", 2, 2, 20],
+                    ["Bom dia, senhor João!", 2, 3, 15]]
+        }
+        ]
+}

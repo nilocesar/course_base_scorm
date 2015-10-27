@@ -1,0 +1,27 @@
+{
+    "questoes": [
+        {
+            "sub_nivel": "1",
+            "titulo": "Olha, eu entendo que o produto de vocês nos dá mais garantias de sucesso com a plantação. Mas se vocês não disponibilizarem melhores formas de pagamento, ou um bom desconto, fica difícil optar pelos seus produtos.",
+            "opc": [["Compreendo e agradeço por sua parceria, compartilhando sua opinião! Apenas confirmando: a maior dificuldade é com relação ao preço e à forma de pagamento, certo?", 6, 1, 50],
+                    ["Muito bem! Agradeço pelas respostas, senhor João. Apenas para confirmar: o problema é o preço, certo?", 6, 2, 5],
+                    ["Então o problema é o preço, correto?", 6, 2, 5]]
+            }, 
+        {
+ 
+            "sub_nivel": "2",
+            "titulo": "Eu entendo que o produto de vocês nos dá mais garantias de sucesso com a plantação. Mas se vocês não disponibilizarem melhores formas de pagamento, ou um bom desconto, fica difícil optar pelos seus produtos.",
+            "opc": [["Compreendo e agradeço por sua parceria, compartilhando sua opinião! Apenas confirmando: a maior dificuldade é com relação ao preço e à forma de pagamento, certo?", 6, 1, 1],
+                    ["Então, apenas garantindo que eu entendi corretamente: o problema é o preço, certo?", 6, 2, 5],
+                    ["Então, a nota dada foi devido ao preço?", 6, 2, 5]]
+            
+            }, 
+        
+        {
+            "sub_nivel": "3",
+            "titulo": "Não vou mais discutir essa questão com você! Eu dei uma nota baixa porque acho seu produto caro. Agora preciso desligar. Obrigado pela ligação!",
+            "opc": [["Entendo! Muito obrigado, senhor João. Tchau!", "*","*", 0]]
+            
+            }
+        ]
+}

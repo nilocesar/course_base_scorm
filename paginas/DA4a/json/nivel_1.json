@@ -1,0 +1,11 @@
+{
+    "questoes": [
+        {
+            "sub_nivel": "1",
+            "titulo": "Frederico, bom dia?",
+            "opc": [["Bom dia, senhor Frederico! Eu sou representante da DEKALB. Você tem tempo para uma rápida conversa?", 2, 1, 45],
+                    ["Bom dia, Frederico! Eu sou representante da DEKALB.", 2, 2, 25],
+                    ["Bom dia, Frederico! Podemos conversar agora?", 2, 3, 15]]
+        }
+        ]
+}

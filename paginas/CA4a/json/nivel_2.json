@@ -1,0 +1,29 @@
+{
+    "questoes": [
+        {
+            "sub_nivel": "1",
+            "titulo": "Claro! Ele precisava mesmo falar com você. Só um minuto que vou chamá-lo, tudo bem?<br>Intervalo[...]<br>Oi, bom dia! Aqui é o Roberto.",
+            "opc": [["Olá, Roberto! Eu sou representante da Sementes Agroceres. Recentemente, você participou de uma pesquisa nossa, por telefone, e eu gostaria de agradecer pela sua  colaboração.", 3, 1, 35],
+                    ["Bom dia, Roberto! Estou ligando para agradecer pela sua participação em uma de pesquisa da Sementes Agroceres feita recentemente.", 3, 2, 20],
+                    ["Olá , Roberto! Estou ligando para entender as notas que você nos deu em uma pesquisa da qual participou recentemente.", 3, 3, 10]]
+            
+            }, 
+        {
+            "sub_nivel": "2",
+            "titulo": "Aqui é o Roberto! Com quem estou falando?",
+            "opc": [["Olá, Roberto! Eu sou representante da Sementes Agroceres. Recentemente, você participou de uma pesquisa nossa, por telefone, e eu gostaria de agradecer pela sua  colaboração.", 3, 1, 35],
+                    ["Bom dia, Roberto sou o RTV da Agroceres. Estou ligando para agradecer sua participação em uma pesquisa feita recentemente.", 3, 2, 20],
+                    ["Olá, é da Monsanto! Roberto, estou ligando para entender as notas que você nos deu em uma pesquisa  da qual participou recentemente.", 3, 3, 10]]
+            
+            }, 
+        
+        {
+            "sub_nivel": "3",
+            "titulo": "Roberto...",
+            "opc": [["Olá, Roberto! Eu sou representante da Sementes Agroceres. Recentemente, você participou de uma pesquisa nossa, por telefone, e eu gostaria de agradecer pela sua  colaboração.", 3, 1, 20],
+                    ["Desculpe, Roberto! Sou RTV da Sementes Agroceres e preciso falar com você sobre uma pesquisa que você respondeu.", 3, 3, 10],
+                    ["É o RTV da Sementes Agroceres e preciso falar com você sobre uma pesquisa que você respondeu.", 3, 3, 10]]
+            
+            }
+        ]
+}

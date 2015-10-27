@@ -1,0 +1,29 @@
+{
+    "questoes": [
+        {
+            "sub_nivel": "1",
+            "titulo": "Como posso ajudar?",
+            "opc": [["Primeiramente, quero agradecer sua participação em uma pesquisa da DEKALB feita, recentemente, por telefone. Gostaria de pedir, também, alguns minutos do seu tempo para que possamos conversar sobre as respostas da pesquisa.", 3, 1, 65],
+                    ["Quero perguntar se você pode me ajudar a entender melhor o motivo das notas que você deu na pesquisa da DEKALB feita recentemente.", 3, 2, 25],
+                    ["Quero falar sobre a nota que o senhor nos deu na pesquisa que participou.", 3, 3, 15]]
+            
+            }, 
+        {
+            "sub_nivel": "2",
+            "titulo": "Do que você precisa?",
+            "opc": [["Primeiramente, quero agradecer sua participação em uma pesquisa da DEKALB feita, recentemente, por telefone. Gostaria de pedir, também, alguns minutos do seu tempo para que possamos conversar sobre as respostas da pesquisa.", 3, 1, 65],
+                    ["Quero perguntar se você pode me ajudar a entender melhor o motivo das notas que você deu na pesquisa por telefone da DEKALB que participou recentemente.", 3, 2, 25],
+                    ["Quero falar sobre a nota que o senhor nos deu na pesquisa que participou.", 3, 3, 15]]
+            
+            }, 
+        
+        {
+            "sub_nivel": "3",
+            "titulo": "Com quem eu falo e o que você quer?",
+            "opc": [["Eu sou RTV da DEKALB. Quero primeiramente, agradecer sua participação em uma pesquisa feita, recentemente, por telefone. Gostaria de pedir, também, alguns minutos do seu tempo para que possamos conversar sobre as respostas da pesquisa.", 3, 2, 25],
+                    ["Eu sou RTV da DEKALB. Quero perguntar se você pode me ajudar a entender melhor o motivo das notas dadas para nós, por você, na pesquisa em que participou, recentemente, por telefone.", 3, 2, 25],
+                    ["Eu sou RTV da DEKALB. Quero falar sobre a pesquisa que o senhor participou.", 3, 3, 15]]
+            
+            }
+        ]
+}

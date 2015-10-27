@@ -1,0 +1,29 @@
+{
+    "questoes": [
+        {
+            "sub_nivel": "1",
+            "titulo": "Posso sim! Sinceramente porque os preços dos concorrentes estão melhores e não vejo mais vantagens em optar pelas sementes de vocês. O custo-benefício não está valendo.",
+            "opc": [["Entendi! E na sua opinião, senhor João, o que podemos fazer para voltar a ser sua preferência?", 5, 1, 40],
+                    ["Entendi! O senhor acredita, então, que reduzindo os preços o nosso produto volta a ser competitivo?", 5, 2, 15],
+                    ["Senhor João, eu entendo sua colocação. Mas o preço do nosso produto é devido à sua qualidade!", 5, 3, 10]]
+            }, 
+        {
+ 
+            "sub_nivel": "2",
+            "titulo": "Sinceramente porque os preços dos concorrentes estão melhores e não vejo mais vantagens em optar pelas sementes de vocês. O custo-benefício não está valendo.",
+            "opc": [["Entendi! E na sua opinião, senhor João, o que podemos fazer para voltar a ser sua preferência?", 5, 1, 40],
+                    ["Entendi! O senhor acredita, então, que reduzindo os preços o nosso produto volta a ser competitivo?", 5, 2, 15],
+                    ["Senhor João, eu entendo sua colocação. Mas o preço do nosso produto é devido à sua qualidade!", 5, 3, 10]]
+            
+            }, 
+        
+        {
+            "sub_nivel": "3",
+            "titulo": "Bem. Eu acho que o custo-benefício está ruim. Por isso a nota baixa.",
+            "opc": [["Entendi! E na sua opinião, senhor João, o que podemos fazer para voltar a ser sua preferência?", 5, 1, 40],
+                    ["Como disse, senhor João, nossos preços estão dentro dos valores de mercado. Você acredita que deveriam ser mais baixos?", 5, 3, 10],
+                    ["Senhor João, eu entendo sua colocação. Mas o preço de nosso produto é devido à sua qualidade.", 5, 3, 10]]
+            
+            }
+        ]
+}

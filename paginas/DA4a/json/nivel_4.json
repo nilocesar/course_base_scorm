@@ -1,0 +1,29 @@
+{
+    "questoes": [
+        {
+            "sub_nivel": "1",
+            "titulo": "Sim! O híbrido 240 não presta, está muito abaixo do que o dos concorrentes. Precisamos usar o fungicida duas vezes. O 290 é um bom híbrido, mas o 240, eu não tenho como usar. Há algo mais que você precise saber? Estou atrasado!",
+            "opc": [["Não! Muito obrigado, senhor Frederico. Suas explicações irão nos ajudar a atendê-lo melhor nas próximas vezes. Não quero atrapalhar.", 5, 1, 40],
+                    ["Na verdade tenho mais uma dúvida. O senhor tem mais alguns minutos?", 5, 2, 5],
+                    ["Antes de ir, o senhor deve me explicar o que aconteceu com o híbrido 240.", 5, 3, 5]]
+            
+            }, 
+        {
+            "sub_nivel": "2",
+            "titulo": "Não teve entrega! Esse foi o problema. E ainda tivemos uma dor de cabeça porque o híbrido 240 não presta. A qualidade dele está abaixo da concorrência. Agora, preciso sair para uma reunião.",
+            "opc": [["Não quero atrapalhar você, marcamos uma outra hora. Muito obrigado, senhor Frederico! Suas explicações irão nos ajudar a atendê-lo melhor nas próximas vezes.", 5, 1, 40],
+                    ["Tenho mais uma dúvida, o senhor tem mais alguns minutos?", 5, 2, 5],
+                    ["Senhor Frederico, é muito importante falarmos agora sobre este problema de entrega. Você não tem mais cinco minutos?", 5, 2, 5]]
+            
+            }, 
+        
+        {
+            "sub_nivel": "3",
+            "titulo": "Não teve entrega! Esse foi o problema. Agora, preciso sair para uma reunião.",
+            "opc": [["Não quero atrapalhar, marcamos uma outra hora. Muito obrigado, senhor Frederico, por sua colaboração e parceria! Suas explicações irão nos ajudar a atendê-lo melhor nas próximas vezes. Obrigado!", 5, 1, 40],
+                    ["O senhor não teria mais cinco minutos para me explicar o que aconteceu com a híbrido 240?", 5, 2, 5],
+                    ["Antes de ir, o senhor precisa me explicar o que aconteceu com a híbrido 240.", 5, 2, 5]]
+            
+            }
+        ]
+}

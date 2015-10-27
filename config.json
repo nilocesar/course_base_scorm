@@ -1,0 +1,52 @@
+{
+    "config": [{
+        "modulo": "intro",
+        "telas": [
+            ["AA1", "paginas/AA1/index.html"],
+            ["AA2", "paginas/AA2/index.html"],
+            ["AA3", "paginas/AA3/index.html"]
+        ]
+    }, {
+        "modulo": "main",
+        "telas": [
+            ["BA1", "paginas/BA1/index.html"]
+        ]
+    }, {
+        "modulo": "cliente1",
+        "telas": [
+            ["CA1", "paginas/CA1/index.html"],
+            ["CA2", "paginas/CA2/index.html"],
+            ["CA3", "paginas/CA3/index.html"],
+            ["CA4", "paginas/CA4/index.html"],
+            ["CA5", "paginas/CA5/index.html"],
+            ["CA6", "paginas/CA6/index.html"]
+        ]
+    }, {
+        "modulo": "cliente2",
+        "telas": [
+            ["DA1", "paginas/DA1/index.html"],
+            ["DA2", "paginas/DA2/index.html"],
+            ["DA3", "paginas/DA3/index.html"],
+            ["DA4", "paginas/DA4/index.html"],
+            ["DA5", "paginas/DA5/index.html"],
+            ["DA6", "paginas/DA6/index.html"]
+        ]
+    }, {
+        "modulo": "cliente3",
+        "telas": [
+            ["EA1", "paginas/EA1/index.html"],
+            ["EA2", "paginas/EA2/index.html"],
+            ["EA3", "paginas/EA3/index.html"],
+            ["EA4", "paginas/EA4/index.html"],
+            ["EA5", "paginas/EA5/index.html"],
+            ["EA6", "paginas/EA6/index.html"]
+        ]
+    }],
+    "size": {
+        "width": 875,
+        "height": 520
+    },
+    "transition": "fadeIn",
+    "debug": true,
+    "cache": false
+}

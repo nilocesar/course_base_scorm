@@ -1,0 +1,16 @@
+{
+    "questoes": [{
+        "sub_nivel": "1",
+        "titulo": "Por nada, abraço!",
+        "opc": [
+            ["Abraço, tchau.", "*", "*", 0]
+        ]
+    }, {
+
+        "sub_nivel": "2",
+        "titulo": "Por nada, abraço!",
+        "opc": [
+            ["Abraço, tchau.", "*", "*", 0]
+        ]
+    }]
+}

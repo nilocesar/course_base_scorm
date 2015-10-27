@@ -1,0 +1,29 @@
+{
+    "questoes": [
+        {
+            "sub_nivel": "1",
+            "titulo": "Sim! Seguimos todas as orientações. Inclusive, quando identificamos as lagartas, fizemos a aplicação do veneno. Mas, no fim, foi quase a mesma quantidade de aplicações do nosso híbrido convencional e do VT PRO 2. Fica complicado, levando em conta a relação custo-benefício.",
+            "opc": [["Compreendo! Você sabe dizer se os outros agricultores também sofreram com o mesmo problema?", 5, 1, 55],
+                    ["Entendo, Roberto! Mas nosso produto é resistente a lagartas. Então, precisamos identificar em que tivemos falhas. Você sabe dizer se os outros agricultores tiveram o mesmo problema?", 5, 2, 5],
+                    ["Sinceramente acho difícil que lagartas ataquem nosso produto. Você tem certeza disso?", 5, 2, 5]]
+            
+            }, 
+        {
+            "sub_nivel": "2",
+            "titulo": "Sim! Sabe, nós plantamos uma variedade convencional também e ela teve um resultado melhor do que a do VT PRO 2. Fica complicado, levando-se em conta a relação custo-benefício.",
+            "opc": [["Compreendo! Você sabe dizer se os outros agricultores também sofreram com o mesmo problema?", 5, 1, 55],
+                    ["Entendo, Roberto! Mas nosso produto é resistente a lagartas. Então, precisamos identificar onde tivemos falhas. Você sabe dizer se os outros agricultores tiveram o mesmo problema?", 5, 2, 5],
+                    ["Sinceramente, acho difícil que lagartas ataquem nosso produto. Você tem certeza disso?", 5, 2, 5]]
+            
+            }, 
+        
+        {
+            "sub_nivel": "3",
+            "titulo": "Mas é claro! As lagartas comeram toda a plantação. O resultado do VT PRO 2 foi pior do que os das sementes convencionais.",
+            "opc": [["Entendo! Senhor Roberto, você sabe me informar se os produtos dos concorrentes ou se a plantação dos outros agricultores também sofreram ataques?", 5, 1, 55],
+                    ["Entendo, Roberto! Mas nosso produto é resistente a lagartas. Então, precisamos identificar onde tivemos falhas. Você sabe dizer se os outros agricultores tiveram o mesmo problema?", 5, 2, 5],
+                    ["Entendo! Obrigado pela informação.", 6, 2, 5]]
+            
+            }
+        ]
+}

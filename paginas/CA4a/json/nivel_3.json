@@ -1,0 +1,29 @@
+{
+    "questoes": [
+        {
+            "sub_nivel": "1",
+            "titulo": "Por nada! É bom colaborar. Uma pena que não tivemos resultados muito bons desta vez.  As lagartas comeram toda a plantação, tivemos um grande problema. Por isso, dei uma nota baixa, sabe?",
+            "opc": [["Entendo, senhor Roberto! Então, o principal motivo da sua nota foi o problema com as lagartas, certo? Vocês fizeram o monitoramento e manejo da lavoura?", 4, 1, 45],
+                    ["Entendo, senhor Roberto! Vocês fizeram o monitoramento e manejo da lavoura?", 4, 2, 25],
+                    ["Perfeito! E como isso ocorreu?", 4, 3, 10]]
+            
+            }, 
+        {
+            "sub_nivel": "2",
+            "titulo": "Ah! É mesmo, a pesquisa. Olha é bom participar, mas não tivemos um bom resultado. As lagartas comeram quase toda plantação, tivemos um grande problema.",
+            "opc": [["Entendo, senhor Roberto! E você sabe me dizer o que aconteceu? Vocês fizeram o monitoramento e manejo da lavoura?", 4, 1, 45],
+                    ["Então, o principal motivo da sua nota foi o problema com as lagartas, certo? Vocês fizeram o monitoramento e manejo da lavoura?", 4, 2, 25],
+                    ["Senhor Roberto, você tem certeza de que o problema com as lagartas aconteceu com o nosso produto? Vocês fizeram o monitoramento e manejo da lavoura, Roberto?", 4, 3, 10]]
+            
+            }, 
+        
+        {
+            "sub_nivel": "3",
+            "titulo": "Sementes Agroceres, certo? Tivemos um grande problema com sua marca. As lagartas comeram toda a plantação.",
+            "opc": [["Entendo, Roberto! Então, o principal motivo da sua nota foi o problema com as lagartas, certo? Vocês fizeram o monitoramento e manejo da lavoura?", 4, 2, 25],
+                    ["Senhor Roberto, você tem certeza de que o problema com as lagartas aconteceu com o nosso produto? Vocês fizeram o monitoramento e manejo da lavoura,  Roberto?", 4, 3, 10],
+                    ["Vocês fizeram o monitoramento e manejo da lavoura, Roberto?", 4, 3, 10]]
+            
+            }
+        ]
+}

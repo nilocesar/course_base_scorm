@@ -1,0 +1,14 @@
+{
+    "questoes": [
+        {
+            "sub_nivel": "1",
+            "titulo": "Eu que agradeço! Caso tenha mais alguma dúvida, fique à vontade.",
+            "opc": [["Obrigado pela disponibilidade e cooperação, Roberto!", "*", "*", 0]]
+            },
+        {
+            "sub_nivel": "2",
+            "titulo": "Bom, acho que é isso! Até mais, então.",
+            "opc": [["Obrigado pela disponibilidade e cooperação, Roberto!", "*", "*", 0]]
+            }
+        ]
+}
