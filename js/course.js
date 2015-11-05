@@ -418,17 +418,22 @@ define(['jquery', 'scorm'], function ($) {
         //           CONTROLE DE COMPONENTE              //
         ///////////////////////////////////////////////////
 
-        $private.componente = function componente(moduleArray, callComplete) {
+        $private.componente = function componente(moduleArray, callModule) {
+            
+            var _containerComp = [];
+            
             $.each(moduleArray, function (index, value) {
+                
                 var moduleID = value.id;
                 var modulePath = value.path;
-
+                
                 require([modulePath], function (module) {
                     module.init($public);
                     $public.setComponente(moduleID, module);
-
-                    if (index == (moduleArray.length - 1))
-                        callComplete();
+                    _containerComp.push(module);
+                    
+                    if( _containerComp.length == moduleArray.length )
+                        callModule();
                 });
             });
         }
