@@ -1,5 +1,5 @@
 /*=============================================================
-//  Data: 30/07/2015
+//  Data: 30/07/2015 - atualizado 05/11/2015
 //  COURSE.JS - 2.0.1 - contato com o LMS
 //  Autor: Nilo César Lemos de Castro
 //  TODO: Essa estrutura tem como intuito componentizar as demanandas
@@ -37,20 +37,24 @@ define(['jquery', 'scorm'], function ($) {
         //=============================================================  
 
         $public.init = function init() {
-            ///Adicionar os Componentes antes de iniciar o scorms
-            $private.componente('componentes/modal', "modalObj");
-            $private.componente('componentes/navegacao', "navegacaoObj");
-            //            $private.componente('componentes/pdf', "pdfObj");
-            //            
-            //            //
-            //            setTimeout(function(){
-            //                $public.getComponente( "pdfObj" ).createPdf("pdf/f1040.pdf", 875, 520, false, true);
-            //            }, 1000* 2);
 
+            var comps = [{
+                "path": 'componentes/modal',
+                "id": "modalObj"
+            }, {
+                "path": "componentes/navegacao",
+                "id": "navegacaoObj"
+            }]
 
-            $public.scormInit();
-            $public.scormUnload();
-            $private.initJson();
+            $private.componente(comps, function () {
+                
+                ///Depois de carregado os componetes chamar as funcoes iniciais do course
+                $public.scormInit();
+                $public.scormUnload();
+                $private.initJson();
+                
+            });
+
         };
 
         $public.setCourse = function setCourse(pathName, pathData) {
@@ -414,12 +418,20 @@ define(['jquery', 'scorm'], function ($) {
         //           CONTROLE DE COMPONENTE              //
         ///////////////////////////////////////////////////
 
-        $private.componente = function componente(modulePath, moduleObj) {
-            require([modulePath], function (module) {
-                module.init($public);
-                $public.setComponente(moduleObj, module);
+        $private.componente = function componente(moduleArray, callComplete) {
+            $.each(moduleArray, function (index, value) {
+                var moduleID = value.id;
+                var modulePath = value.path;
+
+                require([modulePath], function (module) {
+                    module.init($public);
+                    $public.setComponente(moduleID, module);
+
+                    if (index == (moduleArray.length - 1))
+                        callComplete();
+                });
             });
-        };
+        }
 
         return $public;
     };
