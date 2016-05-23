@@ -35,6 +35,7 @@ BASE.verifyStatus
 /* ===========================================================
     SCORM JQUERY - Nilo César  - 28/01/2015
                     atualizado - 22/07/2015  
+                    atualizado - 23/05/2016  
 /* =========================================================== */
 
 
@@ -988,6 +989,12 @@ pipwerks.UTILS.trace = function (msg) {
             if (BASE.SCORM.inLMS) {
                 BASE.debug("[start_timer called]");
                 BASE.SCORM.StartDate = new Date().getTime();
+                
+                 $(window).unload(
+                    function () {
+                        pipwerks.SCORM.quit();    
+                    }
+                 );
             }
 
         })();
